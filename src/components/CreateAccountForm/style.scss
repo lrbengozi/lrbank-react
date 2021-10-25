@@ -1,0 +1,38 @@
+.createAccount {
+  display: flex;
+  flex-direction: column;
+  margin-top: 90px;
+  width: 70%;
+  background-color: rgb(241, 241, 241);
+  padding: 30px;
+  border-radius: 5px;
+
+  input {
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 5px;
+    border: 0;
+    padding: 15px;
+  }
+
+  label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  button {
+    height: 40px;
+    border-radius: 5px;
+    border: 0;
+    padding: 0 15px;
+    background-color: #0a0029;
+    color: #fff;
+  }
+}
+
+@media (max-width: 760px) {
+  .createAccount {
+    width: 100%;
+    margin-top: 0px;
+  }
+}

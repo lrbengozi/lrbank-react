@@ -11,6 +11,7 @@ function LoginPage() {
     <div className="page">
       <Header />
       <About />
+
       <footer>
         Página desenvolvida por{" "}
         <a href="https://www.linkedin.com/in/lrbengozi/" target="blank">

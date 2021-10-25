@@ -1,4 +1,5 @@
 import React from "react";
+import CreateAccountForm from "../CreateAccountForm";
 import "./style.scss";
 
 const About = () => {
@@ -8,8 +9,15 @@ const About = () => {
         <div className="about--horizontal">
           <div className="about--name">LRbank</div>
           <div className="about--description">
-            Um banco <strong>fictício</strong>, diferente que foi criado para
-            servir de portifolio
+            <p>
+              Um banco <strong>fictício</strong>, que foi criado para servir de
+              portifolio!
+            </p>
+            <p>
+              Caso tenha interesse em realizar testes nesta aplicação realize o
+              cadastro abaixo.
+            </p>
+            <CreateAccountForm />
           </div>
         </div>
       </div>
